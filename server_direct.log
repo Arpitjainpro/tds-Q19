@@ -1,0 +1,58 @@
+﻿python : INFO:     Started server 
+process [4536]
+At line:1 char:84
++ ... arity-api"; python -m 
+uvicorn app.main:app --host 
+127.0.0.1 --port 80 ...
++                 ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (INFO:     Started  
+   server process [4536]:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+INFO:     Waiting for application 
+startup.
+INFO:     Application startup 
+complete.
+INFO:     Uvicorn running on 
+http://127.0.0.1:8000 (Press 
+CTRL+C to quit)
+INFO:     127.0.0.1:61059 - "OPTIONS /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:61059 - "POST /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:64503 - "POST /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:49993 - "POST /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:49993 - "POST /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:49175 - "POST /similarity HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53600 - "OPTIONS /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:53600 - "POST /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:61032 - "POST /similarity HTTP/1.1" 200 OK
+Processing 10 documents...
+Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+INFO:     127.0.0.1:60874 - "POST /similarity HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55983 - "OPTIONS /pipeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55983 - "POST /pipeline HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53240 - "POST /pipeline HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51530 - "POST /pipeline HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63608 - "POST /pipeline HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63608 - "POST /pipeline HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55138 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55148 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55149 - "GET /docs HTTP/1.1" 200 OK
